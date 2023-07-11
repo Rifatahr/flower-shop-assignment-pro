@@ -116,17 +116,22 @@ line-height: 30px;
 .featured-flowers1{
     border-radius: 300px 300px 0px 0px;
     background: rgba(167, 33, 98, 0.15);
+    padding: 30px 10px 0px 10px;
+  
 
 }
 
 .featured-flowers2{
     border-radius: 300px 300px 0px 0px;
     background: rgba(5, 151, 160, 0.15);
+    padding: 30px 10px 0px 10px;
 
 }
 .featured-flowers3{
     border-radius: 300px 300px 0px 0px;
     background: rgba(71, 125, 17, 0.15);
+    padding: 30px 10px 0px 10px;
+
 
 }
 .text-primary{
@@ -164,4 +169,75 @@ line-height: 30px;
     padding-top: 50px;
     margin: 30px;
  }
+ /* deal section */
 
+ .latest-deal{
+    background: url("/Rectangle\ 9.png");
+    width: 1440px;
+    height: 449px;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+    
+ }
+
+ .emails input , textarea{
+    display: inline;
+    width: 400px;
+    height: 54px; 
+    margin-right: 8px ;
+    align-items: center;
+ }
+ .emails{
+    border-radius: 15px;
+ }
+ .form-sec{
+    justify-content: center;
+    align-items: center;
+    padding-left: 60px;
+    padding-top: 20px;
+    margin-left: 400px;
+ }
+ /* fotter section */
+
+ footer{
+    text-align: center;
+    
+ }
+
+ .footer-sec{
+    width: auto;
+    height: 500px;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+   
+
+ }
+ .footer-text{
+    color: white;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    padding-top: 50px;
+
+ }
+ .footer-text1{
+    color: #E55473;
+font-family: Lato;
+
+ }
+ .footer-text2{
+    color: rgba(255, 255, 255, 0.90);
+text-align: center;
+font-family: Lato;
+padding: 10px;
+ }
+ 
+
+ .footer-text3{
+    color: rgba(255, 255, 255, 0.40);
+text-align: center;
+font-family: Lato;
+
+ }
