@@ -1,0 +1,167 @@
+/* common shared styles */
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+/* nav related styles */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: rgba(229, 84, 115, 0.10);
+    margin: 0 ;
+}
+.nav-title{
+    color: black;
+    font-size: 50px;
+    font-weight: 750;
+}
+nav > ul{
+    display: flex;
+    align-items: center;
+}
+nav li {
+    list-style: none;
+    margin-right: 50px;
+}
+nav a {
+    text-decoration: none;
+    color:black;
+}
+.header-text1{
+    color: #272727;
+    font-size: 40px;
+    font-style: normal;
+    line-height: normal;
+}
+.header-part{
+    padding: 30px 30px 0px 150px;
+    display: flex;
+    background-color: rgba(229, 84, 115, 0.10);
+    justify-content: space-around;
+    align-items: center;
+   
+}
+.header-part2{
+    margin-top: 50px;
+    padding: 40px;
+}
+.pngwing10{
+    width: 635px;
+    height: 800px;
+}
+.header-text1{
+    font-size: 80px;
+}
+.header-text2{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 20px 0px;
+
+}
+.pri-btn{
+    border-radius: 8px;
+    background: #E55473;
+    border: 0;
+    font-size: 20px;
+    padding: 15px 30px;
+    color: white;
+    cursor: pointer;
+}
+.featured-container{
+   margin: 30px;
+   padding: 20px;
+}
+.featured-text{
+    color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-family: Lato;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+}
+
+.featured-text1{
+    color: black;
+}
+.flowers-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.flowers-container div{
+    text-align: center;
+    padding: 10px;
+}
+.flowers-container img{
+    width: 350px;
+    height: 400px;
+
+}
+
+.flower-name{
+    text-decoration: underline;
+    margin: 10px;
+    padding: 10px;
+}
+.featured-flowers1{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+
+}
+
+.featured-flowers2{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+
+}
+.featured-flowers3{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+
+}
+.text-primary{
+    color: #E55473;
+}
+.sale-section{
+    background: rgba(229, 84, 115, 0.05);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.sale-text{
+    padding: 30px 30px 0px 150px;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+ .redrose{
+    padding: 50px 200px;
+ }
+ 
+/* instagram Section */
+
+ .rectagular-image-list{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+
+ }
+ .rectagular-image-list li{
+    list-style: none;
+ }
+ .featured-text{
+    padding-top: 50px;
+    margin: 30px;
+ }
+
